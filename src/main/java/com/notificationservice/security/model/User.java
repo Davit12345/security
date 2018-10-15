@@ -33,7 +33,7 @@ public class User {
     private String email;
 
     @NotNull
-    @Size(min = 8,message = "Password must be more then 8 characters")
+    @Size(min = 8,message = "Password must be more then 8 charactersa")
     private String password;
 
 
