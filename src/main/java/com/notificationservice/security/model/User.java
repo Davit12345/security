@@ -20,7 +20,7 @@ public class User {
 
 
     @NotNull
-    @Size(min = 2,message = "Name must be more then 2 characters")
+    @Size(min = 2,message = "Name must be more then 2 charactersa")
     private String name;
 
 
