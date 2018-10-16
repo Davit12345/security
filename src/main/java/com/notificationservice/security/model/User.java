@@ -25,7 +25,7 @@ public class User {
 
 
     @NotNull
-    @Size(min = 2, message = "Surname must bea more then 2 characters")
+    @Size(min = 2, message = "Surname must be more then 2 characters")
     private String surname;
 
     @NotNull
@@ -33,7 +33,7 @@ public class User {
     private String email;
 
     @NotNull
-    @Size(min = 8,message = "Password must be more then 8 charactersa")
+    @Size(min = 8,message = "Password must be more then 8 characters")
     private String password;
 
 
